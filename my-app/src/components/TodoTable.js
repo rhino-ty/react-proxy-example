@@ -1,6 +1,6 @@
 import React from "react";
 
-const TodoTable = ({ Todos }) => {
+const TodoTable = ({ todos }) => {
   if (todos.length === 0) return null;
 
   return (
